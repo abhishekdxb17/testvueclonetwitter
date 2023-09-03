@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "sh deploy.sh"
+    "deploy": "sh deploy.sh && gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -22,9 +22,11 @@
     "@vue/cli-plugin-vuex": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.0.0",
+    "gh-pages": "^6.0.0",
     "sass": "^1.32.12",
     "sass-loader": "^8.0.2"
   },
+  "homepage": "https://abhishekdxb17.github.io/testvueclonetwitter/",
   "licenses": [
     {
       "type": "MIT",
